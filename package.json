@@ -2,13 +2,34 @@
   "name": "nodejs-sample",
   "version": "1.0.0",
   "description": "",
-  "main": "app/app.js",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sonar": "node sonar-project.js",
+    "test": "jest --coverage"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "coveragePathIgnorePatterns": [
+      "/node_modules/"
+    ],
+    "testResultsProcessor": "jest-sonar-reporter"
+  },
+  "jestSonar": {
+    "reportPath": "coverage",
+    "reportFile": "test-reporter.xml",
+    "indent": 4
   },
   "author": "",
   "license": "EPL-2.0",
   "dependencies": {
-    "express": "^4.13.4"
+    "-": "0.0.1",
+    "express": "^4.17.1",
+    "save": "^2.4.0"
+  },
+  "devDependencies": {
+    "jest": "^26.1.0",
+    "jest-sonar-reporter": "^2.0.0",
+    "sonarqube-scanner": "^2.7.0",
+    "supertest": "^4.0.2"
   }
 }
