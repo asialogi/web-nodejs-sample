@@ -9,7 +9,7 @@ Nodejs sample application
 
 FROM [codenvy/node](https://hub.docker.com/r/codenvy/node/)
 
-# How to run
+# How to Execute
 
 | #       | Description           | Command  |
 | :------------- |:-------------| :-----|
