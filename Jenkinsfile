@@ -1,7 +1,7 @@
 podTemplate(
     cloud: 'sgh-lsg-ibm',
     containers: [
-    containerTemplate( name: 'nodejs', image: 'quay.io/eclipse/che-nodejs10-ubi:7.15.1', ttyEnabled: true, command: 'cat')
+    containerTemplate( name: 'nodejs', image: 'nodejs:latest', ttyEnabled: true, command: 'cat')
   ]) {
 
     node(POD_LABEL) {
