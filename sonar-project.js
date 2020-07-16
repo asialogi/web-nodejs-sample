@@ -2,7 +2,7 @@ const sonarqubeScanner =  require('sonarqube-scanner');
 sonarqubeScanner(
     {
         serverUrl:  'http://cc.sgh.aplogicalis.com',
-        token: '53efc18d1912331757343e31f5d9e1c0ccca798b',
+        token: 'c6343495648962e0062eaba998e73c945bdb78c2',
         options : {
             'sonar.sources':  'src',
             'sonar.tests':  'src',

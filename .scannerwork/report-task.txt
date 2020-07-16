@@ -1,0 +1,6 @@
+projectKey=sgh-demo-nodejs
+serverUrl=http://cc.sgh.aplogicalis.com
+serverVersion=7.0.0.36138
+dashboardUrl=http://cc.sgh.aplogicalis.com/dashboard/index/sgh-demo-nodejs
+ceTaskId=AXNXH07o9Whp5jUMI4yk
+ceTaskUrl=http://cc.sgh.aplogicalis.com/api/ce/task?id=AXNXH07o9Whp5jUMI4yk
