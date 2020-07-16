@@ -1,6 +1,0 @@
-projectKey=nodejs-sample
-serverUrl=http://cc.sgh.aplogicalis.com
-serverVersion=7.0.0.36138
-dashboardUrl=http://cc.sgh.aplogicalis.com/dashboard/index/nodejs-sample
-ceTaskId=AXNA0fD09Whp5jUMI4xd
-ceTaskUrl=http://cc.sgh.aplogicalis.com/api/ce/task?id=AXNA0fD09Whp5jUMI4xd

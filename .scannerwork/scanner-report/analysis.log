@@ -1,0 +1,36 @@
+SonarQube plugins:
+  - SonarC# 6.7.1.4347 (csharp)
+  - SonarPython 1.9.0.2010 (python)
+  - SonarJava 5.1.0.13090 (java)
+  - Flex 2.3 (flex)
+  - SonarQube :: Plugins :: SCM :: Git 1.3.0.869 (scmgit)
+  - SonarXML 1.4.3.1027 (xml)
+  - SonarPHP 2.12.1.3018 (php)
+  - SonarTS 1.5.0.2122 (typescript)
+  - SonarQube :: Plugins :: SCM :: SVN 1.6.0.860 (scmsvn)
+  - SonarJS 4.0.0.5862 (javascript)
+Global properties:
+  - sonar.core.id=AXM3JL8g9Whp5jUMI34r
+  - sonar.core.startTime=2020-07-10T05:13:35+0000
+Settings for module: sgh-demo-nodejs
+  - sonar.exclusions=node_modules/**,bower_components/**,jspm_packages/**,typings/**,lib-cov/**,coverage/**
+  - sonar.host.url=http://cc.sgh.aplogicalis.com
+  - sonar.inclusions=**
+  - sonar.javascript.lcov.reportPaths=coverage/lcov.info
+  - sonar.login=******
+  - sonar.projectBaseDir=/projects/nodejs-web-app
+  - sonar.projectDescription=No description.
+  - sonar.projectKey=sgh-demo-nodejs
+  - sonar.projectName=sgh-demo-nodejs
+  - sonar.projectVersion=1.0.0
+  - sonar.scanner.app=ScannerNpm
+  - sonar.scanner.appVersion=2.7.0
+  - sonar.sourceEncoding=US-ASCII
+  - sonar.sources=src
+  - sonar.test.inclusions=src/**/*.spec.js,src/**/*.spec.jsx,src/**/*.test.js,src/**/*.test.jsx
+  - sonar.testExecutionReportPaths=coverage/test-reporter.xml
+  - sonar.tests=src
+  - sonar.webhooks.project=1
+  - sonar.webhooks.project.1.name=jenkins
+  - sonar.webhooks.project.1.url=https://jenkins.sgh.aplogicalis.com/github-webhook
+  - sonar.working.directory=/projects/nodejs-web-app/.scannerwork
