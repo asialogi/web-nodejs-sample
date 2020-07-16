@@ -1,7 +1,7 @@
 podTemplate(
     cloud: 'sgh-lsg-ibm',
     containers: [
-    containerTemplate( name: 'nodejs', image: 'node:latest', ttyEnabled: true, command: 'cat')
+    containerTemplate( name: 'nodejs', image: 'openshift/jenkins-agent-nodejs-8-centos7', ttyEnabled: true, command: 'cat')
   ]) {
 
     node(POD_LABEL) {
