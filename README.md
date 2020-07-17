@@ -5,7 +5,7 @@ Nodejs sample application
 # Developer Workspace
 [![Contribute](http://beta.codenvy.com/factory/resources/codenvy-contribute.svg)](http://beta.codenvy.com/f?id=r8et9w6vohmqvro8)
 
-# Stack to be used
+# Stack to be used in SGH
 
 FROM [codenvy/node](https://hub.docker.com/r/codenvy/node/)
 
