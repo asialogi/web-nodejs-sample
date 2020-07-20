@@ -9,10 +9,10 @@ podTemplate(
             git 'https://github.com/asialogi/web-nodejs-sample.git'
             container('nodejs') {
                 stage('build') {
-                    sh 'npm install'
+                    sh 'echo "build stage" && sleep 30'
                 }
                 stage('code-coverage') {
-                    sh 'node sonar-project.js'
+                    sh 'echo "code-coverage stage" && sleep 60'
                 }
             }
         }
